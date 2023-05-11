@@ -6,9 +6,12 @@ Figuring out how to monitor boxes in the field.
 I signed up for the Amazon Marketplace version of hosted InfluxDB - went to the integrations:
 
 ```
+python3 -m venv env
+. env/bin/activate
+
 pip install influxdb-client
 pip install flightsql-dbapi
-pip instal pandas
+pip install pandas
 ```
 
 
